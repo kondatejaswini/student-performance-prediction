@@ -143,4 +143,29 @@ Transparent rule engine evaluating multi-indicator thresholds:
 ---
 
 ## 🏗️ 14. Project Architecture & 15. Folder Structure
+## 💻 16. Installation & 17. Running the Project
+### Prerequisites
+Python 3.10+ installed.
+### Step 1: Clone Repository
+```bash
+git clone https://github.com/kondatejaswini/student-performance-prediction.git
+cd student-performance-prediction
+Step 2: Install Dependencies
+pip install -r requirements.txt
+Step 3: Run Application
+streamlit run app.py
+📊 18. Power BI Integration
+To import data into Power BI:
+
+Open Power BI Desktop 
+→
+→ Click Get Data 
+→
+→ Text/CSV.
+Select data/student_performance_powerbi.csv.
+Use pre-calculated columns Attendance_Band, Study_Hours_Band, and Risk_Category for slicers.
+☁️ 23. Streamlit Cloud Deployment
+Push repository to GitHub (kondatejaswini/student-performance-prediction).
+Log into Streamlit Community Cloud.
+Connect repository and select app.py (or student performance/app.py) as main file path.
          
